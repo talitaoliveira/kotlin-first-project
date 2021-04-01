@@ -4,7 +4,7 @@ class Calculator {
     }
 
     fun half(value: Int): Int {
-        return 0
+        return value / 2
     }
 
 }
