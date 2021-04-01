@@ -9,4 +9,11 @@ class CalculatorTest {
         val result = calculator.double(5)
         assertEquals(10, result)
     }
+
+    @Test
+    fun shouldDivideBy2() {
+        val calculator = Calculator()
+        val result = calculator.half(10)
+        assertEquals(5, result)
+    }
 }

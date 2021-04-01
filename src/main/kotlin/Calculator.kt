@@ -3,4 +3,8 @@ class Calculator {
         return value * 2
     }
 
+    fun half(value: Int): Int {
+        return 0
+    }
+
 }
